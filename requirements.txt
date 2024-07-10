@@ -1,0 +1,9 @@
+requests
+Pillow
+transformers
+torch
+streamlit
+fastapi
+uvicorn
+azure-cognitiveservices-vision-computervision
+sk-proj-eUCM3NI5rNjPgBMOtLcUT3BlbkFJxdGDErpnEv5182Oad7Cf
