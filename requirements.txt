@@ -6,3 +6,4 @@ streamlit
 fastapi
 uvicorn
 azure-cognitiveservices-vision-computervision
+openai==0.28.0
