@@ -8,7 +8,7 @@ from msrest.authentication import CognitiveServicesCredentials
 from PIL import Image
 
 # Set your OpenAI API key
-openai.api_key = 'sk-proj-eUCM3NI5rNjPgBMOtLcUT3BlbkFJxdGDErpnEv5182Oad7Cf'
+openai.api_key = 'sk-proj-C7Z0mspfCuxVSkt03HeIT3BlbkFJM2VlVvJ8mDJA4RZnn6mU'
 
 # Azure Computer Vision credentials
 subscription_key = "35e4fd3f14354da0bc4b57347c213332"
