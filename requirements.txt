@@ -5,6 +5,5 @@ torch
 streamlit
 fastapi
 uvicorn
-dotenv
 azure-cognitiveservices-vision-computervision
 openai==0.28.0
