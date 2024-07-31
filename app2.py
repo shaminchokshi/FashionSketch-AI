@@ -6,10 +6,16 @@ from azure.cognitiveservices.vision.computervision import ComputerVisionClient
 from azure.cognitiveservices.vision.computervision.models import VisualFeatureTypes
 from msrest.authentication import CognitiveServicesCredentials
 from PIL import Image
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Set your OpenAI API key
-openai.api_key = 'sk-proj-C7Z0mspfCuxVSkt03HeIT3BlbkFJM2VlVvJ8mDJA4RZnn6mU'
 
+openai.api_key=os.getenv('OPENAI_API_KEY')
+key=os.getenv('OPENAI_API_KEY')
+print(key)
 # Azure Computer Vision credentials
 subscription_key = "35e4fd3f14354da0bc4b57347c213332"
 endpoint = "https://azurecomputervizual.cognitiveservices.azure.com/"
